@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #1E1E1E;
+    --inknut-antiqua: 'Inknut Antiqua', serif;
+    --merriweather: 'Merriweather', serif;
+
+}
+
+body {
+    font-family: var(--inknut-antiqua);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav,
+footer {
+    background-color: var(--bg-color);
+}
+
+header section {
+    background-image: url('../img/carbonade-flamande.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10.75rem;
+    padding-bottom: 21rem;
+    background-position: center;
+}
+header section div {
+    background-color: rgba(10, 10, 10, 0.7);
+    text-align: center;
+    padding: 3rem;
+    line-height: 2;
+}
+
+header section div h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+
